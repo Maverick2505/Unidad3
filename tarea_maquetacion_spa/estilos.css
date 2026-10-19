@@ -1,0 +1,220 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Helvetica;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+  background-color: #fdf9f0;
+}
+.ancho{
+  width: 1200px;
+  margin: auto;
+  /* border: 3px red solid; */
+}
+.margen{
+  padding: 15px;
+}
+.centrar{
+  text-align: center;
+}
+.negritas{
+  font-weight: bold;
+}
+hr{
+  background-color: #e5357e;
+  width: 100%;
+  height: 25px;
+}
+/* .c_spa{
+  background-color: white;
+} */
+.c_logo{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 60%;
+}
+.c_logo img{
+  width: 200px;
+  height: 150px;
+}
+.c_redes{
+  display: inline-block;
+  vertical-align: middle;
+}
+.c_btns{
+  border:2px #333 solid;
+}
+.c_btns a{
+  text-decoration: none;
+  font-family: Impact;
+  margin-right: 50px;
+  color: black;
+}
+.c_btns a:nth-child(1){
+  color: #e5357e;
+}
+.c_piedritas{
+  background-image: url(imagenes/fondopiedras.jpg);
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+}
+.c_promo{
+  color: white;
+}
+.c_promo h1{
+  margin-top: 100px;
+  text-decoration: none;
+  font-size: 40px;
+}
+.c_promo p{
+  font-size: 20px;
+}
+.c_bPro{
+  display: inline-block;
+  margin-right: 20%;
+}
+.c_bPro a{
+  text-decoration: none;
+  color: white;
+  background-color: #e5357e;
+  border: 2px #e5357e solid;
+  padding: 10px;
+
+}
+.c_bVvid{
+  display: inline-block;
+}
+.c_bVvid a{
+  text-decoration: none;
+  color: white;
+  background-color: transparent;
+  border: 2px #e5357e solid;
+  padding: 10px 40px;
+}
+.c_productos{
+  background-color: white;
+}
+.c_prdcts{
+  display: inline-block;
+  width: 49%;
+  vertical-align: top;
+  padding: 40px 60px;
+}
+.c_frasco{
+  display: inline-block;
+  width: 49%;
+  vertical-align: top;
+  background-image: url(imagenes/fotovelas.jpg);
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+}
+.c_buscamos h1{
+  font-family: Impact;
+  font-size: 30px;
+  padding: 20px;
+}
+.c_aro{
+  display: inline-block;
+  width: 49%;
+  vertical-align: top;
+  background-image: url(imagenes/fotoaromatizante.jpg);
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+}
+.c_puestos{
+  display: inline-block;
+  width: 49%;
+  vertical-align: top;
+  padding: 40px 60px;
+}
+.c_masajes{
+  background-color: #ffe7a5;
+  display: inline-block;
+  vertical-align: middle;
+  width: 30%;
+  height: 425px;
+  margin-right: 35px;
+}
+.c_masajes h3{
+  font-family: Impact;
+  font-size: 20px;
+}
+.c_masajes img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  padding: 30px;
+}
+.c_masajes a{
+  text-decoration: none;
+  color: white;
+  background-color: #e5357e;
+  border: 2px #e5357e solid;
+  padding: 10px;
+}
+.c_tratamiento{
+  background-color: #ffe7a5;
+  display: inline-block;
+  vertical-align: middle;
+  width: 30%;
+  height: 425px;
+  margin-right: 35px;
+}
+.c_tratamiento h3{
+  font-family: Impact;
+  font-size: 20px;
+}
+.c_tratamiento img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  padding: 30px;
+}
+.c_tratamiento a{
+  text-decoration: none;
+  color: white;
+  background-color: #e5357e;
+  border: 2px #e5357e solid;
+  padding: 10px;
+}
+.c_mascarilla{
+  background-color: #ffe7a5;
+  display: inline-block;
+  vertical-align: middle;
+  width: 30%;
+  height: 425px;
+}
+.c_mascarilla h3{
+  font-family: Impact;
+  font-size: 20px;
+}
+.c_mascarilla img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  padding: 30px;
+}
+.c_mascarilla a{
+  text-decoration: none;
+  color: white;
+  background-color: #e5357e;
+  border: 2px #e5357e solid;
+  padding: 10px;
+}
+.c_final{
+  background-color: white;
+}
+.c_final img{
+  width: 200px;
+  height: 150px;
+}
+.c_final a{
+  color: #e5357e;
+}
